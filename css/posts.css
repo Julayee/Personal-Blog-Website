@@ -1,0 +1,85 @@
+/* Header */
+
+.blog-page-header {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-page-header .header-container img {
+    display: block;
+    height: 576px;
+    width: 922px;
+    margin: 0px auto;
+}
+
+
+/* Author Info */
+
+.avatar {
+    margin-top: 10px;
+    font-family: 'Crimson Pro', serif;
+    color: #a9a9a9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h4 {
+    font-family: 'Crimson Pro', serif;
+    color: #a9a9a9;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+blockquote {
+    font-family: 'Crimson Pro', serif;
+    font-size: 30px;
+    text-align: center;
+    color: #8b5413;
+}
+
+
+/* Blog Posts Section */
+
+.posts {
+    margin-top: 50px;
+}
+
+.posts .post {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.posts .post .left img {
+    height: 300px;
+    width: 500px;
+}
+
+.posts .post .right {
+    max-width: 50%;
+    font-family: 'Crimson Pro', serif;
+}
+
+.posts .post .right p.date {
+    color: #7f7e7e;
+}
+
+.posts .post .right p.text {
+    color: #2d2d2d;
+}
+
+.posts h2 {
+    color: #ff7f50;
+    margin-left: 40px;
+}
+
+.posts figcaption {
+    color: #8b5413;
+    margin-left: 40px;
+}
+
+.posts p.author {
+    color: #7f7e7e;
+}
