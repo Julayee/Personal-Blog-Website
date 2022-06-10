@@ -39,3 +39,24 @@ blockquote {
 }
 
 /* Blog Posts Section */
+
+.posts {
+  position: relative;
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+}
+
+.posts .posts-img img {
+  display: block;
+  height: 400px;
+  width: 600px;
+  margin: 0px auto;
+}
+
+.content p {
+  font-family: "Crimson pro", serif;
+  text-align: center;
+  text-align: justify;
+}
