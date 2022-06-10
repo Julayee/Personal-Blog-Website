@@ -39,33 +39,3 @@ blockquote {
 }
 
 /* Blog Posts Section */
-
-.posts .post {
-  position: relative;
-  margin-top: 40px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 40px;
-}
-
-.posts .post .right p.date {
-  color: #7f7e7e;
-}
-
-.posts .post .right p.text {
-  color: #2d2d2d;
-}
-
-.posts h2 {
-  color: #ff7f50;
-  margin-left: 40px;
-}
-
-.posts figcaption {
-  color: #8b5413;
-  margin-left: 40px;
-}
-
-.posts p.author {
-  color: #7f7e7e;
-}
