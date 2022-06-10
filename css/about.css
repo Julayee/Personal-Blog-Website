@@ -1,3 +1,12 @@
+/* About Page */
+
+.about-page-img img {
+  display: block;
+  height: 576px;
+  width: 922px;
+  margin: 0px auto;
+}
+
 /* About Me */
 
 .about-section {
