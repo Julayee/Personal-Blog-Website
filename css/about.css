@@ -1,6 +1,14 @@
 /* About Me */
 
-.about-section .about-image img {
+.about-section {
+  position: relative;
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+}
+
+.about-section .about-img img {
   display: block;
   height: 576px;
   width: 922px;
