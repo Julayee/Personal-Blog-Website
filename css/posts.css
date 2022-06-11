@@ -13,24 +13,6 @@
   margin: 0px auto;
 }
 
-/* Author Info */
-
-.avatar {
-  margin-top: 10px;
-  font-family: "Crimson Pro", serif;
-  color: #a9a9a9;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-h4 {
-  font-family: "Crimson Pro", serif;
-  color: #a9a9a9;
-  text-align: center;
-  margin-bottom: 30px;
-}
-
 blockquote {
   font-family: "Crimson Pro", serif;
   font-size: 30px;

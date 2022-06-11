@@ -2,8 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
 body {
   box-sizing: border-box;
-  margin: 10px 80px;
-  padding: 0;
   background-color: hsl(0, 0%, 100%);
 }
 

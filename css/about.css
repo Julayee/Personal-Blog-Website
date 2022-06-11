@@ -4,14 +4,14 @@
   display: block;
   height: 576px;
   width: 922px;
-  margin: 0px auto;
+  margin-bottom: 50px;
 }
 
 /* About Me */
 
 .about-section {
   position: relative;
-  margin-top: 40px;
+  margin-top: 60px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 40px;
@@ -25,10 +25,12 @@
   border-radius: 50%;
 }
 
-.about-section p {
-  font-family: "Crimson pro", serif;
+h4,
+p {
+  font-family: "Crimson Pro", serif;
+  color: #a9a9a9;
   text-align: center;
-  text-align: justify;
+  margin-bottom: 30px;
 }
 
 /* Form Contact Styling */
