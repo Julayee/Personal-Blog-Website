@@ -26,7 +26,7 @@
   border-radius: 50%;
 }
 
-h4,
+.about-section h4,
 p {
   font-family: "Crimson Pro", serif;
   color: #a9a9a9;
@@ -53,7 +53,7 @@ form {
   background: #d9d7bf7f;
   display: flex;
   flex-direction: column;
-  margin: auto;
+
   padding: 2vw 4vw;
   width: 90%;
   max-width: 600px;
