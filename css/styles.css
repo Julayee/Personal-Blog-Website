@@ -162,8 +162,8 @@ h1 {
 
 footer {
   position: relative;
-  width: 100%;
   background-color: lightslategray;
+  margin-top: 80px;
   min-height: 100px;
   padding: 20px 50px;
   display: flex;
@@ -171,8 +171,6 @@ footer {
   align-items: center;
   flex-direction: column;
 }
-
-/* Social Media Section */
 
 footer .social-icons,
 footer .menu {
@@ -185,14 +183,14 @@ footer .menu {
 }
 
 footer .social-icons li,
-footer menu li {
+footer .menu li {
   list-style: none;
 }
 
 footer .social-icons li a {
   font-size: 30px;
   color: #6cccc6;
-  margin: 0;
+  margin: 0 10px;
   display: inline-block;
   transition: 0.5s;
 }
@@ -202,10 +200,12 @@ footer .social-icons li a:hover {
   transform: translateY(-10px);
 }
 
-/* Menu Section */
-
-.menu li a {
+footer .menu li a {
+  font-size: 20px;
   color: #6cccc6;
+  margin: 0 10px;
+  display: inline-block;
+  text-decoration: none;
 }
 
 /* Outer Footer Section */
