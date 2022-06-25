@@ -28,7 +28,6 @@ blockquote {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 40px;
-  padding: 30px 10%;
 }
 
 .posts .posts-img img {
